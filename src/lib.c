@@ -14,16 +14,19 @@ char *get_animal_type_name(enum animal_type type)
 	char *result;
 	switch (type) {
 	case CAT:
-		result = "Кіт";
+		result = "Kot";
 		break;
 	case DOG:
-		result = "Собака";
+		result = "Sobaka";
 		break;
 	case COW:
-		result = "Корова";
+		result = "Korova";
 		break;
 	case PIG:
-		result = "Свиня";
+		result = "Svin";
+		break;
+	case HUMAN:
+		result = "Chelik";
 		break;
 	default:
 		result = "N/A";
